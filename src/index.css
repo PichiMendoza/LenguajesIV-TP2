@@ -1,0 +1,28 @@
+:root {
+  --ink: #173042;
+  --muted: #607481;
+  --paper: #f4f0e8;
+  --cream: #fffdf8;
+  --line: #d9d3c7;
+  --coral: #e9785c;
+  --teal: #2b7a78;
+  --yellow: #f2c14e;
+  --heading: Georgia, 'Times New Roman', serif;
+  --sans: 'Trebuchet MS', Verdana, sans-serif;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100svh;
+}
