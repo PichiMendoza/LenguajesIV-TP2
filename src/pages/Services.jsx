@@ -5,7 +5,7 @@ function Services() {
     <section className="list-section">
       <p className="eyebrow">Lo que ofrecemos</p>
       <h1 className="section-title">Servicios</h1>
-      <p className="page-lead">Tecnologías y habilidades de tecnología de la información.</p>
+      <p className="page-lead"><strong>Servicios de tecnología de la información</strong></p>
 
       <div className="cards">
         {servicios.map((s) => (
